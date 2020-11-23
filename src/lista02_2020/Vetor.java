@@ -17,7 +17,7 @@ public class Vetor {
 		this.arraySize = arraySize;
 	}
 	
-	public int[] getArrayRandom() { 
+	public int[] setArrayRandom() { 
 		
 		int array [] = new int [arraySize];
 		
@@ -32,7 +32,7 @@ public class Vetor {
 		
 		Arrays.sort(array);
 		
-		this.arrayRandom = array;
+		this.arrayRandom = array; // acho que isso nao esta certo, pois nao esta passando o valor do array para a variavel!
 		
 		return array;
 	}
@@ -201,7 +201,7 @@ public class Vetor {
 		return impares;
 	}
 	
-	//revisar
+	//revisar calculos nao fecharam 100%
 	public int[] retornaNumerosPrimos() {
 		int[] primos = new int [arraySize];
 		

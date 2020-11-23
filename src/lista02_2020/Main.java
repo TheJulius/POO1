@@ -29,7 +29,7 @@ public class Main {
 			
 			for (int i = 0; i < v.getArraySize(); i++) {
 		
-				System.out.println(v.getArrayRandom()[i]);
+				System.out.println(v.setArrayRandom()[i]);
 				
 			}
 			
